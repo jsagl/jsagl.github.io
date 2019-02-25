@@ -1,0 +1,26 @@
+.nav-zankyou {
+	color:rgb(30,30,30);
+	font-family: "Open Sans", sans-serif;
+	background-color: rgb(255,255,255,0.5);
+	text-align:center;
+	padding: 10px 0px 0px 0px;
+	margin: 0;
+}
+
+.nav-zankyou{
+	padding-bottom:0px;
+}
+
+.nav-zankyou li:hover{
+	color: #5893d4;
+	font-size:bolder;
+	border-bottom:3px solid #5893d4;
+	padding-bottom:7px;
+}
+
+.nav-zankyou-active{
+	color: #5893d4;
+	font-size:bolder;
+	border-bottom:3px solid #5893d4;
+	padding-bottom:7px;
+}
