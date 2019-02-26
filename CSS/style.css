@@ -1,4 +1,5 @@
 @import url("components/navbarzankyou.css");
+@import url("components/cartezankyou.css");
 
 /*color scheme - du plus foncé au plus clair*/
 /*rgb(17,120,100*/
@@ -7,11 +8,12 @@
 
 
 body{
-	background: url("images/background-floral-v4-casse.png") center center fixed;
+	background: url("images/background-floral-v4-white.png") center center fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family:"Open Sans",sans-serif;
 }
+
 
 h1{
 	color: rgb(150,150,150);
@@ -36,12 +38,9 @@ h2{
 	border-top:2px solid #117864;
 	border-bottom:2px solid #117864;
 	padding:3px 0px 3px 0px;
+	margin-bottom:30px;
 }
 
 #bienvenue{
-	display:inline-block;
-}
 
-#cover-pic{
-	width:40%;
 }

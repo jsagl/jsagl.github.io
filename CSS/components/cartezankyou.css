@@ -1,0 +1,20 @@
+.cartezankyou{
+	font-family:"Open Sans", sans-serif;
+	text-align:justify;
+	background-color:white;
+	border:1px solid rgb(200,200,200);
+	box-shadow:1px 1px rgb(245,245,245);
+	border-radius:4px;
+	margin:10px;
+}
+
+.cartezankyou-header{
+	text-align:center;
+	margin:10px;
+	color: rgb(17,120,100);
+}
+
+.cartezankyou-pic{
+	width:100%;
+	margin:10px 0px 10px 0px;
+}
