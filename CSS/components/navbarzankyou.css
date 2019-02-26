@@ -1,9 +1,9 @@
 .nav-zankyou {
-	color:rgb(30,30,30);
+	color:White;
 	font-family: "Open Sans", sans-serif;
-	background-color: rgb(255,255,255,0.5);
+	background-color: rgb(17,120,100,0.7);
 	text-align:center;
-	padding: 10px 0px 0px 0px;
+	padding: 5px 0px 0px 0px;
 	margin: 0;
 }
 
@@ -12,15 +12,15 @@
 }
 
 .nav-zankyou li:hover{
-	color: #5893d4;
+	color: rgb(39,225,190);
 	font-size:bolder;
-	border-bottom:3px solid #5893d4;
-	padding-bottom:7px;
+	border-bottom:3px solid rgb(39,225,190);
+	padding-bottom:5px;
 }
 
 .nav-zankyou-active{
-	color: #5893d4;
+	color: rgb(39,225,190);
 	font-size:bolder;
-	border-bottom:3px solid #5893d4;
-	padding-bottom:7px;
+	border-bottom:3px solid rgb(39,225,190);
+	padding-bottom:5px;
 }
