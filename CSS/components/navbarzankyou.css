@@ -11,16 +11,27 @@
 	padding-bottom:0px;
 }
 
-.nav-zankyou li:hover{
+.nav-zankyou a{
+	text-decoration:none;
+	color:white;
+}
+
+.nav-zankyou a:hover{
 	color: rgb(39,225,190);
 	font-size:bolder;
 	border-bottom:3px solid rgb(39,225,190);
 	padding-bottom:5px;
+	margin: 0;
 }
+
 
 .nav-zankyou-active{
 	color: rgb(39,225,190);
 	font-size:bolder;
 	border-bottom:3px solid rgb(39,225,190);
 	padding-bottom:5px;
+}
+
+.nav-zankyou-active a{
+	color: rgb(39,225,190);
 }
