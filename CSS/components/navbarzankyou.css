@@ -3,35 +3,27 @@
 	font-family: "Open Sans", sans-serif;
 	background-color: rgb(17,120,100,0.7);
 	text-align:center;
-	padding: 5px 0px 0px 0px;
+	padding: 5px 0px 6px 0px;
 	margin: 0;
-}
-
-.nav-zankyou{
-	padding-bottom:0px;
+	line-height:1.6;
 }
 
 .nav-zankyou a{
 	text-decoration:none;
 	color:white;
+	border:none;
+	padding-bottom: 5px;
 }
 
 .nav-zankyou a:hover{
 	color: rgb(39,225,190);
 	font-size:bolder;
 	border-bottom:3px solid rgb(39,225,190);
-	padding-bottom:5px;
-	margin: 0;
 }
 
 
-.nav-zankyou-active{
+.nav-zankyou .nav-zankyou-active{
 	color: rgb(39,225,190);
 	font-size:bolder;
 	border-bottom:3px solid rgb(39,225,190);
-	padding-bottom:5px;
-}
-
-.nav-zankyou-active a{
-	color: rgb(39,225,190);
 }
