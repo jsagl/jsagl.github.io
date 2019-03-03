@@ -46,3 +46,40 @@ h2{
 #bienvenue{
 
 }
+
+/*retouche du style de la navbar Bootstrap en petite taille*/
+#toggler {
+	padding:3px 5px 3px 5px !important;
+	border-color:rgb(39,225,190) !important;
+	border-width:1px;
+	text-decoration:none;
+}
+
+.fa-bars{
+	color: rgb(39,225,190);
+}
+
+.bg-light{
+	background-color:rgb(17,120,100,1) !important;
+}
+
+.navbar{
+	padding: 3.754px 16px 3.754px 16px;
+	position: fixed !important;
+	top: 0px;
+	width: 100%;
+	z-index:100;
+}
+
+.nav-link{
+	color: white !important;
+	font-family: "Open Sans", sans-serif !important;
+	padding-top:4px !important;
+	padding-bottom:4px !important;
+}
+
+.nav-link:hover{
+	color: rgb(39,225,190) !important;
+}
+
+button:focus {outline:0;}
