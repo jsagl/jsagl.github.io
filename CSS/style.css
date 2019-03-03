@@ -64,6 +64,19 @@ h2{
 	margin-top:30px;
 }
 
+#boutton-cagnotte{
+	background-color: #117864;
+	color: white;
+	border:none;
+	border-radius:20px;
+	padding:3px 10px 3px 10px;
+}
+
+#boutton-cagnotte:hover{
+	color:rgb(39,225,190);
+
+}
+
 /*retouche du style de la navbar Bootstrap en petite taille*/
 #toggler {
 	padding:3px 5px 3px 5px !important;
@@ -100,3 +113,4 @@ h2{
 }
 
 button:focus {outline:0;}
+input:focus {outline:0;}
