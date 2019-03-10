@@ -22,7 +22,7 @@ h1{
 	font-family:"Glegoo";
 	font-weight:400;
 	font-size:55px;
-	margin:82px 0px 20px 0px;
+	margin:70px 0px 20px 0px;
 	text-align:center;
 
 }
@@ -33,6 +33,16 @@ h2{
 	font-size:25px;
 	text-align:center;
 	padding:5px;
+}
+
+
+h3{
+	color: rgb(150,150,150);
+	font-family:"Glegoo";
+	font-weight:400;
+	font-size:40px;
+	margin:70px 0px 20px 0px;
+	text-align:center;
 }
 
 #date{
@@ -51,13 +61,14 @@ h2{
 	margin-top:100px;
 }
 
-#cagnotte a{
+.liens{
 	text-decoration:none;
 	color:#117864;
 }
 
-#cagnotte a:hover{
+.liens:hover{
 	color:rgb(39,225,190);
+	text-decoration:none;
 }
 
 #cagnotte p{
@@ -80,8 +91,7 @@ h2{
 /*retouche du style de la navbar Bootstrap en petite taille*/
 #toggler {
 	padding:3px 5px 3px 5px !important;
-	border-color:rgb(39,225,190) !important;
-	border-width:1px;
+	border:none;
 	text-decoration:none;
 }
 
