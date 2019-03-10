@@ -69,30 +69,31 @@
 		    </ul>
 		  </div>
 		</nav> 
-		<h3>RSVP avant le 30 avril 2019</h3>   	
+		<h3>Confirmer ma présence</h3>   	
 	<div class="container">
 		<div class="row justify-content-center">    
-			<div class="cartezankyou col-sm-9">
+			<div class="cartezankyou col-sm-9" id="carte-formulaire">
+				<p id="confirmez-svp">Afin de faciliter l'organisation du mariage, pourriez-vous, s'il vous plait, nous confirmer votre présence <span class="noms">avant le 30 avril 2019</span> en complétant le formulaire ci-dessous ?</p>
 				<form action="https://formspree.io/enroutepourlaventure19@gmail.com" method="POST">
-					<label for="nom">Nom : </label>
-					<input type="text" name="nom" id="nom" required><br>
-					<label for="prenom">Prénom : </label>
-					<input type="text" name="prenom" id="prenom" required><br>
-					<label for="email">Email : </label>
-					<input type="email" name="email" id="email" required><br>
-					<label for="telephone">Téléphone : </label>
-					<input type="text" name="telephone" id="telephone"><br>
-					<span>Je serai présent(e) samedi soir : <input type="radio" id="oui" name="answer" value="oui">
+					<label class="label-color" for="nom">Nom : </label>
+					<input class="text-input-form" type="text" name="nom" id="nom" required placeholder=" Nom"><br>
+					<label class="label-color" for="prenom">Prénom : </label>
+					<input class="text-input-form" type="text" name="prenom" id="prenom" required placeholder=" Prénom"><br>
+					<label class="label-color" for="email">Email : </label>
+					<input class="text-input-form" type="email" name="email" id="email" required placeholder=" monmail@gmail.com"><br>
+					<label class="label-color" for="telephone">Téléphone : </label>
+					<input class="text-input-form" type="text" name="telephone" id="telephone" placeholder=" 0612345678"><br>
+					<span class="label-color">Je serai présent(e) samedi soir : <input type="radio" id="oui" name="reponse-samedi" value="oui" required>
 						<label for="oui">Oui</label>
-						<input type="radio" id="non" name="answer" value="non">
+						<input type="radio" id="non" name="reponse-samedi" value="non">
 						<label for="non">Non</label>
 					</span><br>
-					<span>Je serai présent(e) au brunch dimanche : <input type="radio" id="oui" name="answer" value="oui">
+					<span class="label-color">Je serai présent(e) au brunch dimanche : <input type="radio" id="oui" name="reponse-dimanche" value="oui" required>
 						<label for="oui">Oui</label>
-						<input type="radio" id="non" name="answer" value="non">
+						<input type="radio" id="non" name="reponse-dimanche" value="non">
 						<label for="non">Non</label>
 					</span><br>
-					<label for="adultes">Combien d'adultes? : </label>
+					<label class="label-color" for="adultes">Combien d'adultes? : </label>
 					  <select id="adultes" name="adultes" required>
 					  	<option value="0">0</option>
 					    <option value="1">1</option>
@@ -101,7 +102,7 @@
 					    <option value="4">4</option>
 					    <option value="5">5</option>
 					  </select><br>
-					<label for="enfants">Combien d'enfants? : </label>
+					<label class="label-color" for="enfants">Combien d'enfants? : </label>
 					  <select id="enfants" name="enfants" required>
 					    <option value="0">0</option>
 					    <option value="1">1</option>
@@ -111,7 +112,10 @@
 					    <option value="5">5</option>
 					    <option value="6">6</option>
 					  </select><br>
-					<input type="submit" value="Envoyer">
+					<label class="label-color" for="autres-commentaires"></label>
+  					<textarea id="autres-commentaires" name="autres-commentaires" rows="4" cols="40" placeholder="Autres commentaires éventuels (allergies, etc.)"></textarea>
+  					<br>
+					<input id="boutton-submit" type="submit" value="Envoyer">
 				</form>
 			</div>
 		</div>
