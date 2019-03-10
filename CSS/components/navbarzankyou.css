@@ -1,8 +1,8 @@
-@media(max-width:689px) {
+@media(max-width:800px) {
 	.nav-fullsize{display:none;}
 }
 
-@media(min-width:690px) {
+@media(min-width:801px) {
 	.nav-smallsize{display:none;}
 }
 

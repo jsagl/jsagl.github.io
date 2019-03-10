@@ -12,7 +12,6 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family:"Open Sans",sans-serif;
-	height: 1200px;
 }
 
 
@@ -50,15 +49,23 @@ h3{
 	border-top:2px solid #117864;
 	border-bottom:2px solid #117864;
 	padding:3px 0px 3px 0px;
-	margin-bottom:30px;
+	margin-bottom:10px;
 }
 
-#bienvenue{
+#carte-accueil{
+	border:none;
 
 }
 
-#cagnotte{
-	margin-top:100px;
+
+.image-cagnotte{
+	text-align :center;
+}
+
+.image-cagnotte img{
+	width:49%;
+	padding: 25px 5px 0px 5px;
+	border-radius: 2px;
 }
 
 .liens{
@@ -72,7 +79,7 @@ h3{
 }
 
 #cagnotte p{
-	margin-top:30px;
+	margin-top:20px;
 }
 
 #boutton-cagnotte{
@@ -130,6 +137,19 @@ h3{
         margin-bottom: 15px;
        }
 
+#talons {
+	font-weight:bold;
+	color: #117864;
+}
+
+#carte-contacts{
+	padding-top:20px;
+}
+
+.noms{
+	color:#117864;
+	font-weight:bold;
+}
 
 
 
