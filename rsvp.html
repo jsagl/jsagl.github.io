@@ -72,18 +72,36 @@
 		<h3>RSVP avant le 30 avril 2019</h3>   	
 	<div class="container">
 		<div class="row justify-content-center">    
-			<div class="cartezankyou col-sm-9" id="carte-contacts">
-				<p><span class="noms">Nous contacter par mail : </span><a href="mailto:enroutepourlaventure19@gmail.com" class="liens">enroutepourlaventure19@gmail.com</a></p>
-			    <p><span class="noms">Rose</span> (06 71 16 71 83) et <span class="noms">Jean</span> (06 03 54 77 32) • Evidemment nous ne sommes plus joignables à partir du samedi matin</p>
-				<p><span class="noms">Parents de Rose :</span> Mireille (06 40 23 12 40) et Hervé (06 85 91 27 02) • Pour toutes questions relatives à la région et à Crest</p>
-				<p><span class="noms">Parents de Jean :</span> Joëlle (06 12 61 41 95) et Philippe (06 10 32 96 03)</p>
-				<p><span class="noms">Témoins de Rose :</span> Aleksandra (07 85 58 39 85), Laure (06 99 34 16 76), Basile (06 66 74 41 04) et Paul (07 68 52 49 55)</p>
-				<p><span class="noms">Témoins de Jean :</span> Cécile (06 82 25 77 23), Audrey (06 60 45 60 70), François (06 84 27 43 67) et Louis (06 81 79 98 35)</p>
-				<p><span class="noms">Autres contacts :</span></p>
-				<ul>
-					<li><em>Pour le parking à Crest et au Poët-Célard :</em> Marius (06 70 08 34 85) et Léon (06 59 69 03 24), frères de Rose</li>
-					<li><em>Château du Poët-Célard : 04 75 53 32 11</em></li>
-				</ul>
+			<div class="cartezankyou col-sm-9">
+				<form action="https://formspree.io/enroutepourlaventure19@gmail.com" method="POST">
+					<label for="nom">Nom : </label>
+					<input type="text" name="nom" id="nom" required><br>
+					<label for="prenom">Prénom : </label>
+					<input type="text" name="prenom" id="prenom" required><br>
+					<label for="email">Email : </label>
+					<input type="email" name="email" id="email" required><br>
+					<label for="telephone">Téléphone : </label>
+					<input type="text" name="telephone" id="telephone"><br>
+					<label for="adultes">Combien d'adultes? : </label>
+					  <select id="adultes" name="adultes" required>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
+					  </select><br>
+					<label for="enfants">Combien d'enfants? : </label>
+					  <select id="enfants" name="enfants" required>
+					    <option value="0">0</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
+					    <option value="6">6</option>
+					  </select><br>
+					<input type="submit" value="Envoyer">
+				</form>
 			</div>
 		</div>
 	</div>
