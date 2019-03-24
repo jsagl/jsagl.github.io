@@ -53,10 +53,6 @@ h3{
 	margin-bottom:10px;
 }
 
-#carte-accueil{
-	border:none;
-
-}
 
 
 .image-cagnotte{
@@ -192,6 +188,15 @@ h3{
 
 }
 
+.lieux a{
+	text-decoration:none;
+	color:#117864;
+}
+
+.lieux a:hover{
+	color:rgb(39,225,190);
+	text-decoration:none;
+}
 
 
 
