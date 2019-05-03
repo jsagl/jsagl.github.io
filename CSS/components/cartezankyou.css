@@ -3,7 +3,7 @@
 	text-align:justify;
 	background-color:white;
 	border:1px solid rgb(243,243,243);
-	box-shadow:1px 1px rgb(252,252,252);
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
 	border-radius:4px;
 	margin:10px;
 }
